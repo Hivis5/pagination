@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Pagination</title>
+</head>
+<body class="container">
+  <p>Page No:<span id="cp"></span></p>
+  <table id="table">
+    <thead>
+      <th>Id</th>
+      <th>Name</th>
+      <th>Email</th>
+    </thead>
+    <tbody id="tbody">
+
+    </tbody>
+  </table>
+  <div class="center">    
+    <button class="button1"  id="prev" onclick="changePage('prev')">Previous</button>
+    <button class="button2"  id="next" onclick="changePage('next')">Next</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
